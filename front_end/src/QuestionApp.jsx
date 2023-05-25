@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function QuestionApp() {
   return (
@@ -9,7 +10,7 @@ function QuestionApp() {
                     <h1> Poser une question </h1>
                     <p className='info'> Vous rencontrez des problèmes? Notre communauté de développeurs est là pour vous aider! </p>
                 </div>
-                <div> Retour</div>
+                <Link to='/home'> <div> Retour</div> </Link>
             </div>
             <form action="" method="post" className='q_from'>
                 <div className="from-group">

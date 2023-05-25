@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.question{
+    padding: 1rem 5rem 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question_technology_box{
+    width: 20%;
+    border: 1px solid;
+    display: flex;
+}
+
+.question_technology_number{
+    width: 100%;
+    padding: .2rem;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.question_contain{
+    width: 78%;
+}
+
+.question_contain_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.question_contain_body{
+    position: relative;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.apply_question{
+    width: 200px;
+}
+
+.q_c_body_info{
+    align-self: center;
+}
+
+.technology_search{
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
+

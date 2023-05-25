@@ -1,6 +1,7 @@
 import React from 'react'
 import Acces from './acces'
 import DevBox from './DevBox'
+import { Link } from 'react-router-dom'
 
 function Inscription() {
   return (
@@ -23,9 +24,9 @@ function Inscription() {
                             <input type="password" name="" id="" />
                         </div>
                     </div>
-                    <button> Inscription </button>
+                    <Link to='/home'> <button type="submit"> Inscription </button> </Link>
                 </form>
-                <p className='p'> Si vous avez déjà un compte, vous pouvez vous connecter </p>
+                <p className='p'> Si vous avez déjà un compte, vous pouvez vous <Link to='/'>connecter</Link> </p>
             </div>
         </div>
     </div>
