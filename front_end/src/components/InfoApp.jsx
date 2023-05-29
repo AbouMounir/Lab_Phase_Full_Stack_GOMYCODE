@@ -11,7 +11,7 @@ function InfoApp() {
             </div>
         </div>
         <div style={{width:'90%'}}>
-            <input style={{width:'100%', height:'3rem', borderRadius:'.5rem'}} type="text" name="" id="" placeholder='Rechercher des questions' />
+            <input style={{width:'100%', height:'3rem', borderRadius:'.5rem',border:'0px',padding:'1rem',fontSize:'1.5rem'}} type="text" name="" id="" placeholder='Rechercher des questions' />
         </div>
     </div>
   )

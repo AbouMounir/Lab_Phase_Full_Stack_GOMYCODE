@@ -1,6 +1,6 @@
 import React from 'react'
-import Acces from './acces'
-import DevBox from './DevBox'
+import Acces from '../components/acces'
+import DevBox from '../components/DevBox'
 import { Link } from 'react-router-dom'
 
 function Inscription() {

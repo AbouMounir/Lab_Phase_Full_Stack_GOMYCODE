@@ -1,5 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
+
 
 function QuestionApp() {
   return (
@@ -10,7 +15,7 @@ function QuestionApp() {
                     <h1> Poser une question </h1>
                     <p className='info'> Vous rencontrez des problèmes? Notre communauté de développeurs est là pour vous aider! </p>
                 </div>
-                <Link to='/home'> <div> Retour</div> </Link>
+                <Link to='/home'> <div> Retour <FontAwesomeIcon icon={faArrowLeft} /></div> </Link>
             </div>
             <form action="" method="post" className='q_from'>
                 <div className="from-group">
@@ -32,7 +37,7 @@ function QuestionApp() {
                     </div>
                 </div>
             </form>
-            <button type="submit"> Poser ma question </button>
+            <button type="submit"> Poser ma question <FontAwesomeIcon icon={faArrowRight} /> </button>
         </div>
     </div>
   )

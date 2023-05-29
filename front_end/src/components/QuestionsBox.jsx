@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './QuestionBox.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import './../styles/QuestionBox.css'
 
 function QuestionsBox() {
   return (
@@ -16,7 +18,7 @@ function QuestionsBox() {
         <div className='question_contain'>
           <div className='question_contain_header'>
             <div className='number_question'> 10 questions </div>
-            <Link to='/add_question'><button className='apply_question'> Poser une question </button></Link>
+            <Link to='/add_question'><button className='apply_question'> Poser une question <FontAwesomeIcon icon={faArrowRight} /> </button></Link>
           </div>
           <div className='question_contain_body'>
             <div className='q_c_body_info'> 

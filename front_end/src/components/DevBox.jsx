@@ -1,5 +1,5 @@
 import React from 'react'
-import dev_ing from './2jXjqwz.jpg'
+import dev_ing from './../2jXjqwz.jpg'
 
 
 function DevBox() {

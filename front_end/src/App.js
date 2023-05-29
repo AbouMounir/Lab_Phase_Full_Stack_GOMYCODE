@@ -1,9 +1,9 @@
 import {Routes, Route} from 'react-router-dom';
 import './App.css';
-import QuestionApp from './QuestionApp';
-import Inscription from './Inscription';
-import Connexion from './Connexion';
-import Accueil from './Accueil';
+import QuestionApp from './views/QuestionApp';
+import Inscription from './views/Inscription';
+import Connexion from './views/Connexion';
+import Accueil from './views/Accueil';
 
 function App() {
   return (

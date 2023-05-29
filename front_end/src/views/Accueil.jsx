@@ -1,7 +1,7 @@
 import React from 'react'
-import InfoApp from './InfoApp'
-import NavBar from './NavBar'
-import QuestionsBox from './QuestionsBox'
+import InfoApp from '../components/InfoApp'
+import NavBar from '../components/NavBar'
+import QuestionsBox from '../components/QuestionsBox'
 
 function Accueil() {
   return (
