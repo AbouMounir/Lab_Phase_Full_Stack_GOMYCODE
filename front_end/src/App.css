@@ -61,9 +61,15 @@ button{
   height: 2.5rem;
   border: 0;
   border-radius: .3rem;
-  background-color: blue;
+  background-color: #007FFF;
   color: white;
   font-size : 1rem;
+  transition: 0.2s;
+}
+
+button:hover{
+  background-color: blue;
+  cursor: pointer;
 }
 
 .question_box{
@@ -92,3 +98,14 @@ button{
   justify-content: center;
   color: white;
 }
+
+.mail, .out{
+  color: darkgray;
+  transition: 0.2s;
+}
+
+.mail:hover, .out:hover{
+  color: gray;
+  cursor: pointer;
+}
+

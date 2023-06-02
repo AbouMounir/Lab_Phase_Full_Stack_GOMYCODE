@@ -8,8 +8,8 @@ function NavBar() {
         <p> Baroland</p>
        </div>
        <div style={{display:'flex'}}>
-        <p style={{marginRight:'2rem'}}> coulibalyaruna99@gmail.com </p>
-        <Link to='/'> <p> Logout </p> </Link>
+        <p className='mail' style={{marginRight:'2rem'}}> coulibalyaruna99@gmail.com </p>
+        <Link to='/' style={{textDecoration: 'none'}}> <p className='out'> Logout </p> </Link>
        </div>
     </div>
   )

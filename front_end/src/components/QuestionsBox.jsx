@@ -10,8 +10,8 @@ function QuestionsBox() {
         <div className='question_technology_box'>
           <div style={{width:'100%'}}>
             <div className='question_technology_number'>
-              <p> Technologies</p>
-              <div> nombre </div>
+              <p> React </p>
+              <div> 4 </div>
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@ function QuestionsBox() {
               <p className='question_info'> contenu de la question </p>
               <p className='number_reponse_box'> nombre de reponses </p>
             </div>
-            <div className='technology_search'> Technologies </div>
+            <div className='technology_search'> React </div>
           </div>
         </div>
     </div>

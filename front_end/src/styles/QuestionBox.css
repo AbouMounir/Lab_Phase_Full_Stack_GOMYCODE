@@ -18,12 +18,31 @@
 
 .question_technology_number{
     width: 100%;
-    padding: .2rem;
+    padding: .8rem;
     border: 1px solid;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    transition: .2s;
+}
+.question_technology_number div {
+    position: absolute;
+    right: 10px;
+    background-color: #318CE7;
+    color: #EFEFEF;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    padding: .2rem;
+    border-radius: .2rem;
+}
+.question_technology_number:hover{
+    padding-left: 2.5rem;
 }
 
+.question_technology_number p:hover{
+    color: blue;
+}
 .question_contain{
     width: 78%;
 }
@@ -57,3 +76,35 @@
     top: 150px;
 }
 
+
+.question_title{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.question_title:hover{
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+.number_reponse_box{
+    color: blue;
+}
+
+.question_info{
+    color: lightgray;
+}
+
+.technology_search{
+    width: max-content;
+    padding: .5rem;
+    font-size: 0.8rem;
+    background-color: #EFEFEF;
+    text-decoration: underline;
+}
+
+.question_date, .question_info, .number_reponse_box{
+    margin-bottom: .8rem;
+}

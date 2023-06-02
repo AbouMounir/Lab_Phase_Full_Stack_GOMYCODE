@@ -33,7 +33,12 @@ function QuestionApp() {
                 <div className="from-group">
                     <label htmlFor=""> Technologies / Catégories </label>
                     <div>
-                        <input className='input' type="text" name="" id="" placeholder='type something'/>
+                        <select placeholder='type something'> 
+                            <option value="React">React</option>
+                            <option value="PHP">PHP</option>
+                            <option value="MongoDB">MongoDB</option>
+                            <option value="nosql">nosql</option>
+                        </select>
                     </div>
                 </div>
             </form>

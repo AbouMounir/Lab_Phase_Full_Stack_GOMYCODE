@@ -2,7 +2,7 @@ import React from 'react'
 
 function InfoApp() {
   return (
-    <div style={{height:'250px',backgroundColor:'blue'}} className='info_box'>
+    <div style={{height:'250px',backgroundColor:'#318CE7'}} className='info_box'>
         <div style={{width:'60%', textAlign:'center'}}>
             <h1 style={{marginBottom:'1rem'}}> Questions </h1>
             <div style={{marginBottom:'1rem'}}>
