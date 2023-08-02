@@ -4,6 +4,7 @@ import QuestionApp from './views/QuestionApp';
 import Inscription from './views/Inscription';
 import Connexion from './views/Connexion';
 import Accueil from './views/Accueil';
+import CommentApp from './views/CommentApp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/register' element={<Inscription />} />
         <Route path='/home' element={<Accueil />} />
         <Route path='/add_question' element={<QuestionApp />} />
+        <Route path='/comment/:id' element={<CommentApp />} />
       </Routes>
     </div>
   );
